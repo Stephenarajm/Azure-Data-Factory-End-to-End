@@ -14,7 +14,7 @@
 		"type": "BlobEventsTrigger",
 		"typeProperties": {
 			"blobPathBeginsWith": "/landing/blobs/",
-			"blobPathEndsWith": "*csv",
+			"blobPathEndsWith": "csv",
 			"ignoreEmptyBlobs": true,
 			"scope": "/subscriptions/56d52e0f-239f-4ef6-a999-8297559b8172/resourceGroups/Databricks-rg/providers/Microsoft.Storage/storageAccounts/adfsourcestore",
 			"events": [
