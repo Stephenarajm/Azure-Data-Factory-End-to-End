@@ -156,7 +156,7 @@
 										"referenceName": "ls_landing",
 										"type": "LinkedServiceReference"
 									},
-									"path": "bronze/del_history"
+									"path": "landing/del_history"
 								},
 								"enableLogging": true,
 								"storeSettings": {
