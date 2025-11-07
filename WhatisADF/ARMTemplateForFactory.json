@@ -199,7 +199,7 @@
 												"referenceName": "ls_landing",
 												"type": "LinkedServiceReference"
 											},
-											"path": "landing/del_history"
+											"path": "deletehistory"
 										},
 										"enableLogging": true,
 										"storeSettings": {
