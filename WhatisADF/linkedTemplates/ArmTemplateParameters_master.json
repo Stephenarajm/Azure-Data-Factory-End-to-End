@@ -1,0 +1,30 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "WhatisADF"
+		},
+		"ls_bronze_accountKey": {
+			"value": ""
+		},
+		"ls_landing_accountKey": {
+			"value": ""
+		},
+		"ls_bronze_properties_typeProperties_url": {
+			"value": "https://adfsourcestore.dfs.core.windows.net/"
+		},
+		"ls_landing_properties_typeProperties_url": {
+			"value": "https://adfsourcestore.dfs.core.windows.net/"
+		},
+		"tr_main_pipeline_properties_typeProperties_scope": {
+			"value": "/subscriptions/56d52e0f-239f-4ef6-a999-8297559b8172/resourceGroups/Databricks-rg/providers/Microsoft.Storage/storageAccounts/adfsourcestore"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
